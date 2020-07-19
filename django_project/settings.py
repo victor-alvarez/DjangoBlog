@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'nhy0(f=_yg+9jlv$-p*n6qaz+zprl7#0q+i7mt7934u*e_a+_#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -137,12 +137,12 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
+EMAIL_HOST_USER = 'victor.rko00@gmail.com'
+EMAIL_HOST_PASSWORD = 'jqhh npeo gwxi bosa'
 
-AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_STORAGE_BUCKET_NAME = os.environ.get('AWS_STORAGE_BUCKET_NAME')
+AWS_ACCESS_KEY_ID = 'AKIAXUZH5I34D3JQ5C5I'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'my-first-django-app-files'
 AWS_S3_REGION_NAME = 'us-east-2'
 
 AWS_S3_FILE_OVERWRITE = False
