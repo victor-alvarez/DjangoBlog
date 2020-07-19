@@ -138,7 +138,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'victor.rko00@gmail.com'
-EMAIL_HOST_PASSWORD = 'yahyeet123'
+EMAIL_HOST_PASSWORD = 'ngzb qyiy sfzv zbsv'
 
 AWS_ACCESS_KEY_ID = 'AKIAXUZH5I34D3JQ5C5I'
 AWS_SECRET_ACCESS_KEY = '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'
