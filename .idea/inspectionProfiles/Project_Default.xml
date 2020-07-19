@@ -5,7 +5,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="12">
+          <list size="16">
             <item index="0" class="java.lang.String" itemvalue="django-crispy-forms" />
             <item index="1" class="java.lang.String" itemvalue="Pillow" />
             <item index="2" class="java.lang.String" itemvalue="jmespath" />
@@ -18,6 +18,10 @@
             <item index="9" class="java.lang.String" itemvalue="django-storages" />
             <item index="10" class="java.lang.String" itemvalue="urllib3" />
             <item index="11" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="12" class="java.lang.String" itemvalue="dj-database-url" />
+            <item index="13" class="java.lang.String" itemvalue="django-heroku" />
+            <item index="14" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="15" class="java.lang.String" itemvalue="whitenoise" />
           </list>
         </value>
       </option>
