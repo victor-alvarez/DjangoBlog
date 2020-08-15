@@ -26,7 +26,7 @@ SECRET_KEY = 'nhy0(f=_yg+9jlv$-p*n6qaz+zprl7#0q+i7mt7934u*e_a+_#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['my-first-django-app-blog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -132,22 +132,3 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 LOGIN_REDIRECT_URL = 'blog-home'
 LOGIN_URL = 'login'
-
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'victor.rko00@gmail.com'
-EMAIL_HOST_PASSWORD = 'ngzb qyiy sfzv zbsv'
-
-AWS_ACCESS_KEY_ID = 'AKIAXUZH5I34D3JQ5C5I'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'my-first-django-app-files'
-AWS_S3_REGION_NAME = 'us-east-2'
-
-AWS_S3_FILE_OVERWRITE = False
-AWS_DEFAULT_ACL = None
-
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-
-django_heroku.settings(locals())
